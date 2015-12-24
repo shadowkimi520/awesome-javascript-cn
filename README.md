@@ -326,6 +326,20 @@ Web 数据可视化工具
 函数式编程库扩展了 JavaScript 的能力。
 
 * [underscore](https://github.com/jashkenas/underscore) - JavaScript 的实用工具。
+    <h4 id="underscore">Underscore : 函数式编程工具库</h4>
+  * javascript underscore functional-programming
+  Underscore 是一个 JavaScript 工具库，它提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。  
+  Underscore弥补了 jQuery 没有实现的功能，同时又是 Backbone 必不可少的部分。
+  Underscore 是 [DocumentCloud](http://documentcloud.org/) 的一个开源组件。
+  使用方式：
+  * Node.js npm install underscore
+  * Meteor.js metor add underscore
+  * Require.js require(["underscore"],...
+  * Bower bower install underscore
+  * Component component install jashkenas/underscore
+  * [补充说明：] Underscore以遵循CommonJS模块标准的形式发布，既可以在前端直接包含引入，又可以在后端通过npm等包管理工具加载
+  * 官方网址：[http://underscorejs.org](http://underscorejs.org)
+  * 开源地址：[https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
 * [lodash](https://github.com/lodash/lodash) - 提供一致性、可定制、高性能和额外功能的实用库。
 * [Sugar](https://github.com/andrewplummer/Sugar) - 一个扩展了原生对象功能的 JavaScript 库。
 * [lazy.js](https://github.com/dtao/lazy.js) - 类似 Underscore，但性能更优越
